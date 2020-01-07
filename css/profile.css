@@ -1,0 +1,16 @@
+.profileMenu{
+    width: 100%;
+    background: gray;
+    position: relative;
+}
+.profileMenu img{
+    width: 10%;
+    background: gray;
+}
+.profileInformation{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}

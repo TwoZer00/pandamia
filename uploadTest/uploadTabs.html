@@ -1,0 +1,33 @@
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Image from URL</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Image from computer</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+    <form action="zi/addPost.php" method="post">
+        <input type="text" name="title" placeholder="Titulo">
+        <input type="textarea" name="content" placeholder="Contenido">
+        <input type="text" name="img" placeholder="link">
+        <input type="submit" value="Subir">
+    </form>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <form enctype="multipart/form-data" action="uploadTest/upload.php" method="POST">
+    <input type="text" name="title" placeholder="Titulo">
+    <input type="textarea" name="content" placeholder="Contenido">
+    <input type="text" name="fcomputer" value="1" hidden>
+    <input type="hidden" name="MAX_FILE_SIZE" value="10000000000" />
+    Choose a file to upload: <input name="uploadedfile" type="file" accept="image/*" /><br />
+    <input type="submit" value="Upload File" />
+    </form>
+
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<script src="uploadTest/tabs.js" ></script>
+<link rel="stylesheet" href="uploadTest/style.css">

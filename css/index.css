@@ -1,0 +1,51 @@
+/* TODO SECTIONS*/
+/*FORO*/
+.foro{
+    width: 100%;
+}
+.foro table tr td{
+    padding: 30px 0;
+}
+td{
+    text-align: center;
+}
+#title{
+    width: 200px;
+}
+#body{
+    width: 70%;
+}
+#actions{
+    width: 10%;
+}
+.foro table tr,td{
+    border: 1px solid black;
+}
+/*ZONA DE INFECCION*/
+.zi{
+    width: 100%;
+}
+.item{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.item h1,h2{
+    text-align: left;
+}
+.item p{
+    text-align: justify;
+}
+.item img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.item .interactions a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}

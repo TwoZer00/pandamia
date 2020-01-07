@@ -1,0 +1,21 @@
+.foro{
+    width: 100%;
+}
+.foro table tr td{
+    padding: 30px 0;
+}
+td{
+    text-align: center;
+}
+#title{
+    width: 200px;
+}
+#body{
+    width: 70%;
+}
+#actions{
+    width: 10%;
+}
+.foro table tr,td{
+    border: 1px solid black;
+}

@@ -1,0 +1,105 @@
+.zi{
+    width: 100%;
+}
+.item{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 11px 2px #888888;
+    border-radius: 10px;
+}
+.item h1,h2{
+    padding: 5px 15px;
+    text-align: left;
+}
+.item p{
+    padding: 0px 15px;
+    text-align: justify;
+}
+.item img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.interactions{
+    display: block;
+    text-align: right;
+    height:25px; 
+}
+.item .interactions a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+    cursor: pointer;
+}
+.input{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: auto;
+}
+.input form input[type="text"],input[type="textarea"]{
+    width: 49%;
+    margin: 0 .25%;
+    font-size: 18px;
+}
+.input form input[type="submit"]{
+    display: block;
+    width: 20%;
+    font-size: 18px;
+    border: 2px solid black;
+    background: rgba(0,0,0,0);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    right: 0;
+}
+
+/*MODAL BOX*/
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
